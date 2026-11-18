@@ -33,7 +33,7 @@ When every ticket is merged into the story branch, open the story PR against `de
 
 ## Commits
 
-- Conventional Commits 1.0: `type(scope): subject`. Types: `feat`, `fix`, `docs`, `test`, `refactor`, `chore`, `ci`, `build`, `perf`, `style`. Scopes name the area: `tooling`, `core`, `ui`, `legacy`, `e2e`, `protocol`, `deploy`, `docs`. A breaking change takes `!`.
+- Conventional Commits 1.0: `type(scope): subject`. Types: `feat`, `fix`, `docs`, `test`, `refactor`, `chore`, `ci`, `build`, `perf`, `style`. The scope names the area and the list is open: `tooling`, `core`, `ui`, `legacy`, `e2e`, `protocol`, `deploy`, `docs`, `bridge`, `assets`, `readme` and so on; reuse an existing scope before coining one. A breaking change takes `!`.
 - Subject: imperative, at most 72 characters. Body: why, not what.
 - One logical change per commit, and a ticket spans several. Tests land with or before the code they cover. Each commit leaves every existing check green.
 - Footer on every commit: `Refs #<ticket>`, then the `Co-Authored-By` trailer the harness supplies.
