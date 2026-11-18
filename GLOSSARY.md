@@ -12,6 +12,10 @@ _Avoid_: Match, session
 A private pairing of exactly two human players, entered with a code or link, that can hold several Games in a row (rematch). Rooms are for friends: everyone who holds the code is trusted.
 _Avoid_: Match, session
 
+**Room code**:
+The six-character code, from an alphabet without look-alike characters, that identifies a Room while its Host's Room is open. It is shared as a link or typed in; it is never reused.
+_Avoid_: Room id, invite code, PIN
+
 **Lobby**:
 The stage of a Room between Games, where players customize their decks and press Ready.
 _Avoid_: Waiting room, pre-game screen
