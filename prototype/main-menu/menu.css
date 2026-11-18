@@ -176,3 +176,8 @@
 @keyframes pmFlip { from { transform: perspective(60vw) rotateY(90deg); } to { transform: perspective(60vw) rotateY(0); } }
 .pmC-back { padding: 1.6vw; display: flex; flex-direction: column; gap: .7vw; }
 .pmC-back .pm-h2 { text-align: center; }
+
+/* deck is read-only while Ready (decision: lock, don't un-ready) */
+#deck-customization.pm-locked #card-bank, #deck-customization.pm-locked #card-deck,
+#deck-customization.pm-locked #card-leader, #deck-customization.pm-locked #change-faction,
+#deck-customization.pm-locked #upload-deck { pointer-events: none; opacity: .5; }

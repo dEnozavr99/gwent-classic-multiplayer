@@ -163,6 +163,7 @@ function syncRoom() {
 	chip.classList.toggle('pm-ready', o.present && o.ready);
 	startBtn.textContent = P.mode !== 'room' ? 'Start game' : P.meReady ? 'Ready ✓' : 'Ready';
 	startBtn.classList.toggle('pm-is-ready', P.mode === 'room' && P.meReady);
+	dc.classList.toggle('pm-locked', P.mode === 'room' && P.meReady);   // deck is read-only while Ready
 	endStatus.textContent = P.screen !== 'end' ? '' : P.meReady ? 'You are ready. Waiting for your opponent…' : P.opp.ready ? 'Your opponent is ready for a rematch.' : '';
 }
 
