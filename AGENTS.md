@@ -11,3 +11,7 @@ Default five-label vocabulary: `needs-triage`, `needs-info`, `ready-for-agent`, 
 ### Domain docs
 
 Single-context: one `GLOSSARY.md` and `docs/adr/` at the repo root. See `docs/agents/domain.md`.
+
+## Workflow
+
+Read `docs/agents/workflow.md` before starting a ticket, committing code, or opening a pull request.
