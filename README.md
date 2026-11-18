@@ -1,7 +1,7 @@
 # gwent-classic
 ![cover](https://user-images.githubusercontent.com/26311830/116256903-f1599b00-a7b6-11eb-84a1-16dcb5c9bfc6.jpg)
 
-A browser remake of the original Gwent minigame from The Witcher 3: Wild Hunt including all cards from the DLC. To play, download the repo and open index.html in a browser. For the best experience, play in fullscreen which can be toggled in most browsers with F11.
+A browser remake of the original Gwent minigame from The Witcher 3: Wild Hunt including all cards from the DLC. To play locally, clone the repo, run `corepack enable`, then `pnpm install` and `pnpm dev` (Node 22.19 or newer) and open the printed URL; opening index.html straight from disk no longer works. For the best experience, play in fullscreen which can be toggled in most browsers with F11.
 
 ## Rules
 The game is played in the same way as the original. The player aims to win two of three rounds, where victory within a given round is determined by whoever scores the most points. 
