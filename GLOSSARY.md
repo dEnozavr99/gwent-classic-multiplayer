@@ -10,7 +10,27 @@ _Avoid_: Match, session
 
 **Room**:
 A private pairing of exactly two human players, entered with a code or link, that can hold several Games in a row (rematch). Rooms are for friends: everyone who holds the code is trusted.
-_Avoid_: Lobby, match, session
+_Avoid_: Match, session
+
+**Lobby**:
+The stage of a Room between Games, where players customize their decks and press Ready.
+_Avoid_: Waiting room, pre-game screen
+
+**Main menu**:
+The first screen on load, offering the two ways to play: Player vs AI and Player vs Player.
+_Avoid_: Start screen, home screen
+
+**Player vs AI**:
+Playing a Game against the computer, using the deck-maker and end screen as they exist today.
+_Avoid_: Single-player, vs Computer
+
+**Player vs Player**:
+Playing a Game against another human inside a Room.
+_Avoid_: Multiplayer, online mode
+
+**Ready**:
+A player's signal, given from the deck-maker inside a Room with a valid deck, that they want the next Game to start. The Game starts when both players are Ready. A Ready player's deck cannot be edited until they cancel Ready.
+_Avoid_: Confirm, accept
 
 **Host**:
 The player who created the Room. Chooses the Game's random seed and who goes first, and has no other special authority.
