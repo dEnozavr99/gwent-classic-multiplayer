@@ -7,7 +7,7 @@ Branches, commits and pull requests for code work. Docs-only planning commits fo
 - **Story**: a GitHub issue labelled `story`. It is the spec of one phase of ADR 0002 and the parent of that phase's tickets.
 - **Ticket**: an implementation slice (`wayfinder:task`), a sub-issue of a story.
 - **Map**: issue #1, the root of stories and decision tickets.
-- A **standalone ticket** has no story (a spike, a doc). It branches off `develop` and its PR targets `develop`.
+- A **standalone ticket** has no story (a spike, a manual check, release plumbing). It branches off `develop` and its PR targets `develop`.
 
 ## Branches
 
